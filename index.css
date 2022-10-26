@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Source+Sans+Pro&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background: #E8EBFC
+  font-family 'Poppins', sans-serif;
+  background: linear-gradient(-45deg,#15417b, #1197a3,#15417b);
+	background-size: 400% 400%;
+	animation: gradient 5s ease infinite;
+	height: 100vh;
+}
+
+.soluti {
+  display: flex;
+  justify-content: center;
+  font-size: 100px;
+}
+
+.on {
+  background-image: linear-gradient(45deg, #15417b, #18d9eb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+
+.bloco{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container {
+  width: 300px;
+  text-align: center;
+  margin: 60px auto;
+  border-radius: 15px;
+  padding: 20px 30px;
+  background: rgba( 255, 255, 255, 0.6 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 5px );
+  -webkit-backdrop-filter: blur( 5px );
+  border-radius: 10px;
+  
+}
+
+img {
+  width: 100%;
+  border-style: solid;
+  border-color: #fff;
+}
+
+img.avatar {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin-top: 30px;
+}
+
+h1 {
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  opacity: 0.8;
+  margin: 5px 0 ;
+  font-size: 23px;
+}
+
+h5{
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  font-size: 12px;
+  margin: 0px 0 ;
+}
+
+ul {
+  list-style: none;
+  margin: 2rem 0;
+}
+
+ul li a {
+  height: 53px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #08091a;
+  box-shadow: 0 4px 20px 0 rgba(65, 132, 234, 0.75);
+  color: white;
+  text-transform: uppercase;
+  font-size: 15px;
+
+  margin-bottom: 1rem;
+  border-radius: 6px;
+
+  transition: all 1s;
+}
+
+
+ul li a:hover {
+  background-color: rgb(206, 206, 206);
+  color: black;
+}
+
+ul li a i{
+  margin-right: 5px;
+}
+
+.icons {
+  display: flex;
+  column-gap: 25px;
+  justify-content: space-evenly;
+}
+
+.icon {
+  width: 60px;
+  height: 60px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 26px;
+  color: #fff;
+  border-radius: 50%;
+  outline: 2px solid #fff;
+  transition-property:
+      outline-offset, outline-color,
+      background-color;
+  transition-duration: .25s;
+}
+
+.icon:hover {
+  outline-offset: 4px;
+}
+
+.icon:hover i {
+  animation: shake .25s;
+}
+
+
+.icon--linkedin:hover {
+  background-color: #0077b5;
+  outline-color: #0077b5;
+}
+
+.icon--github:hover {
+  background-color: black;
+  outline-color: black;
+}
+
+@keyframes shake {
+  10% {
+      transform: rotate(15deg);
+  }
+
+  20% {
+      transform: rotate(-15deg);
+  }
+
+  30% {
+      transform: rotate(15deg);
+  }
+
+  40% {
+      transform: rotate(-15deg);
+  }
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
