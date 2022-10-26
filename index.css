@@ -42,7 +42,7 @@ body {
 .container {
   width: 300px;
   text-align: center;
-  margin: 60px auto;
+  margin: 40px auto;
   border-radius: 15px;
   padding: 20px 30px;
   background: rgba( 255, 255, 255, 0.6 );
@@ -184,4 +184,20 @@ ul li a i{
 	100% {
 		background-position: 0% 50%;
 	}
+}
+
+.site {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+    
+}
+
+.siten{
+  background-image: linear-gradient(-45deg, #f2f4f7, #b1aebd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    margin-left: 7px;
 }
